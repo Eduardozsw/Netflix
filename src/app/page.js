@@ -31,6 +31,7 @@ export default function Home() {
               <p className='descricao'><span id='furiosos'>Dom Toretto e sua família precisam lidar com o adversário mais letal que
                  já enfrentaram. Alimentada pela vingança, uma ameaça terrível emerge das sombras
                   do passado para destruir o mundo de Dom e todos que ele ama.</span></p>
+              <p className='descricao' id='furiosos-data'>Lançado em: 2023<br/> Faixa etária: 18 ano</p>
                   <button className='assistir'>Assistir</button>
             </div>
           </SplideSlide>
@@ -42,6 +43,7 @@ export default function Home() {
               <p className='descricao'><span id='furiosos'>Adaptada da série de manga homônima, One Piece é um anime
                que conta a história do jovem Monkey D. Luffy, que ganhou poderes de borracha depois de comer uma fruta do diabo.
                 O enredo mostra as aventuras de Luffy e seu grupo.</span></p>
+                <p className='descricao' id='furiosos-data'>Lançado em: 1999<br/> Faixa etária: 14 anos</p>
                   <button className='assistir'>Assistir</button>
                 </div>
           </SplideSlide>
@@ -52,7 +54,8 @@ export default function Home() {
               <h1 className='titulo'><span id='velozes'>Punisher</span></h1>
               <p className='descricao'><span id='furiosos'>O Justiceiro é um personagem fictício, um anti-herói que
                aparece nas histórias em quadrinhos publicadas pela Marvel Comics. Criado pelo escritor Gerry Conway
-                e pelos artistas Ross Andru e John Romita, apareceu pela primeira vez em The Amazing Spider-Man #129.</span></p>
+                e pelos artistas Ross Andru e John Romita.</span></p>
+                <p className='descricao' id='furiosos-data'>Lançado em: 2017<br/> Faixa etária: 18</p>
                   <button className='assistir'>Assistir</button>
               </div>
           </SplideSlide>
