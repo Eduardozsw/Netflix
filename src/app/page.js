@@ -17,16 +17,12 @@ export default function Home() {
             <Image src='/images/Netflix-Logo.wine_.png' width={120} height={120}></Image>
           </Link>
         </div>
-        <div className='flex justify-end absolute right-8 top-6'>
-          <input type='search' placeholder='Digite o nome do filme' className=' text-center'></input>
-        </div>
       </header>
       <div className='Container'>
         <Splide>
           <SplideSlide className=''>
             <img src="/images/fastandfurious10.jpg" alt="Image 1" className='item1' />
             <div className='filme'>
-              <div className='quadrado'></div>
               <h1 className='titulo'><span id='velozes'>Velozes e Furiosos</span></h1>
               <p className='descricao'><span id='furiosos'>Dom Toretto e sua família precisam lidar com o adversário mais letal que
                  já enfrentaram. Alimentada pela vingança, uma ameaça terrível emerge das sombras
@@ -38,7 +34,6 @@ export default function Home() {
           <SplideSlide className='item1'>
             <img src="/images/onepiece.jpg" alt="Image 2" className='item1' />
             <div className='filme'>
-              <div className='quadrado'></div>
               <h1 className='titulo'><span id='velozes'>One Piece</span></h1>
               <p className='descricao'><span id='furiosos'>Adaptada da série de manga homônima, One Piece é um anime
                que conta a história do jovem Monkey D. Luffy, que ganhou poderes de borracha depois de comer uma fruta do diabo.
@@ -50,7 +45,6 @@ export default function Home() {
           <SplideSlide className='item1'>
             <img src="/images/justiceiro.jpg" alt="Image 3" className='item1' />
             <div className='filme'>
-              <div className='quadrado'></div>
               <h1 className='titulo'><span id='velozes'>Punisher</span></h1>
               <p className='descricao'><span id='furiosos'>O Justiceiro é um personagem fictício, um anti-herói que
                aparece nas histórias em quadrinhos publicadas pela Marvel Comics. Criado pelo escritor Gerry Conway
